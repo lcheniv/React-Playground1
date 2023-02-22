@@ -1,0 +1,17 @@
+ul {
+    list-style-type: none;
+    align-content: space-around;
+    text-align: center;
+}
+
+input, span {
+    margin: 40px 10px;
+    text-align: center;
+    text-transform: capitalize;
+    align-content: space-between;
+    padding: 10px 80px 10px 80px;
+    border-radius: 10px;
+    background-color: rgb(206, 206, 206);
+}
+
+

@@ -1,0 +1,68 @@
+.airpods-max {
+    background-image: url('placeholder.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed; /* Add this line to enable the fixed scroll effect */
+  }
+  
+  
+  .main-content {
+    position: relative;
+    z-index: 2;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 60px 0;
+  }
+  
+  
+  .airpods-max-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 40px;
+    text-align: center;
+  }
+  
+  .airpods-max-header h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .airpods-max-header p {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+  .airpods-max-header button {
+    background-color: #0071e3;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 40px;
+    cursor: pointer;
+  }
+  
+  .airpods-max-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 40px;
+    width: 100%;
+    max-width: 1440px;
+  }
+  
+  .airpods-max-image img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .airpods-max-features {
+    display: flex;
+  }

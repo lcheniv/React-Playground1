@@ -1,0 +1,70 @@
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  margin-top: 80px;
+  padding: 0 80px;
+}
+
+/* Grid item */
+.project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #272727;
+  border-radius: 12px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+.project-card h3 {
+  margin: 20px 0 10px 0;
+  font-size: 28px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.project-card p {
+  margin: 10px 0 20px 0;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ccc;
+}
+
+/* Media queries */
+@media screen and (max-width: 1200px) {
+  .projects-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projects-container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 20px;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .project-card h3 {
+    font-size: 24px;
+  }
+
+  .project-card p {
+    font-size: 16px;
+  }
+}
