@@ -1,11 +1,6 @@
 import './App.css';
-import TopFriendsList from './TopFriendsList';
 import Header from './Header';
-import CurrentProjects from './CurrentProjects';
-import CurrentProjects2 from './CurrentProjects2';
-import AirPodsMax from './AirPodsMax';
-import ChatApp from './ChatApp';
-import ToDoList from './ToDoList';
+import ToDoList1 from './ToDoList1';
 
 function App() {
   return (
@@ -13,14 +8,8 @@ function App() {
       <header className="App-header">
         <a className="App-link" href="https://lawrencecheniv.com">Godspeed, Lorenzo!</a>  
         <Header></Header>
+        <ToDoList1></ToDoList1>
       </header>
-
-      {/* <CurrentProjects></CurrentProjects> */}
-      {/* <CurrentProjects2></CurrentProjects2> */}
-      {/* <AirPodsMax></AirPodsMax> */}
-      {/* <ChatApp></ChatApp> */}
-      <ToDoList></ToDoList>
-
     </div>
   );
 }

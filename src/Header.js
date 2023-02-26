@@ -14,9 +14,8 @@ function Header() {
                 <span class="floating-asterisk">*</span>
             </div>
 
-            <div className="current-projects">
-                
-            </div>
+            
+
         </div>
     );
 }

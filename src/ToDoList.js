@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './ToDoList.css';
 
-function ToDoList() {
+export function ToDoList() {
   const [items, setItems] = useState([]);
   const [newItemText, setNewItemText] = useState("");
 
@@ -110,4 +110,4 @@ function ToDoList() {
   );
 }
 
-export default ToDoList;
+

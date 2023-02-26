@@ -1,9 +1,11 @@
 .App {
   text-align: center;
+  cursor: url('./placeholder.png'), auto;
+
   }
 
 .App-header {
-  background-color: #16171a;
+  background-color: #000000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -11,6 +13,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  cursor: url('./placeholder.png'), auto;
+
 }
 
 .App-link {
@@ -20,6 +24,8 @@
   justify-content: center;
   font-style: italic;
   font-weight: 700;
+    cursor: url('./placeholder.png'), auto;
+
 }
 
 .App-link {
@@ -105,4 +111,27 @@ a {
 .right-links {
   font-size: 24px;
 }
+
+.parallax-container {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.parallax-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.parallax-layer img {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+}
+
 
