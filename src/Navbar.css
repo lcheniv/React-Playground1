@@ -1,0 +1,33 @@
+
+.nav-bar2 li, .nav-bar2 a{
+    list-style: none;
+    justify-content: left;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(56, 56, 56);
+    position: absolute; /* Sets the element's position to absolute */
+    left: 0; /* Sets the element's left position to 0 */
+     width: 50px; /* Sets the element's width to 50px */
+    height: 50px; /* Sets the element's height to 50px */
+}
+
+
+.nav-bar2 a:hover{
+    color:blueviolet;
+}
+
+li img {
+    width: 30px;
+    height: 30px;
+}
+
+li img:hover, img:focus {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+

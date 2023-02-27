@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import './ToDoList1.css';
+
 
 // Create a new React project using your preferred tool or platform.
 // Create a new file called "TodoList.js" in the "src" directory.
@@ -29,7 +31,7 @@ function ToDoList1() {
             setWarning("ENTER THE VALUE OR IT WON'T WORK!");
             setCount(count + 1);
         } else {
-            setWarning("Your account has now been deactivated.");
+            setWarning("");
             setToDos([]);
         }
     }
@@ -39,15 +41,21 @@ function ToDoList1() {
         setToDos(updatedItems);
     }
 
+    // When the todo item is checked, change the text color from white to green
+    function handleTodoComplete(todo) {
+        console.log("worked");
+    }
+
+
     return(
         <div>   
-            <ul>
+            <ul className="list-item">
                 {todos.map((todo,index) =>( 
                     <li key={index}>
+                        <input type="checkbox" onChange={() => handleTodoComplete()} />
                         {todo}
                         <button onClick={() => handleRemove(index)}>Remove</button>                    
                     </li>
-
                 ))}
             </ul>
 
@@ -56,9 +64,7 @@ function ToDoList1() {
                 <button type="submit">Add</button>
             </form>
 
-            <h4>
-                {warning}
-            </h4>
+            <p className="test">{warning}</p>
 
         </div>
     )
