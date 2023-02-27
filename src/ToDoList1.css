@@ -1,6 +1,11 @@
 .test {
     font-size: 12px;
     color: rgb(217, 0, 0);
+    text-align: left;
+}
+
+#title {
+    color:white;
 }
 
 .list-item {
@@ -25,8 +30,20 @@ button{
     font-weight: 500;
 }
 
+button.complete {
+    border: none;
+    font-weight: 700;
+}
+
+button.complete:hover {
+    border: none;
+    font-weight: 700;
+    color: aqua;
+}
+
+
 button:hover {
-    color: whitesmoke;
+    color: aqua;
     border-color: blueviolet;
     font-weight: 700;
 }

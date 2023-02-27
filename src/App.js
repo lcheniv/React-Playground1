@@ -11,7 +11,6 @@ function App() {
         <Header></Header>
         <Navbar></Navbar>
         <ToDoList1></ToDoList1>
-
       </header>
     </div>
   );

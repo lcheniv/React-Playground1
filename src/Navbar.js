@@ -6,21 +6,21 @@ import './Navbar.css';
 function Navbar() {
     return(
         
-        <div className="nav-bar2">
+        <div className="nav-bar2" >
             <nav>
                 <ul>
-                    <li><a href="https://www.example.com">
+                    <li><a href="https://www.lawrencecheniv.com">
                             <img src="/home.png" alt="test" width="20" height="20"/>
                         </a>
                     </li> 
                     <br></br>
                     <li> 
-                        <a href="https://www.example.com"> <img src="/web.png" alt="test" width="20" height="20"/>
+                        <a href="https://www.lawrencecheniv.com"> <img src="/web.png" alt="test" width="20" height="20"/>
                         </a>
                     </li>
                     <br></br>
                     <li> 
-                        <a href="https://www.example.com"> <img src="/book.png" alt="test" width="20" height="20"/>
+                        <a href="https://www.lawrencecheniv.com"> <img src="/book.png" alt="test" width="20" height="20"/>
                         </a>
                     </li>
                     <br></br>
